@@ -10,6 +10,8 @@ The Ubuntu server needed an SSH server installed and after it was installed and 
 
 In order to test the detection, several login attempts from the windows laptop to access the Ubuntu Wazuh Server were made 
 
+![Wazuh Failed SSH Authentication Logs](../Screenshots/Wazuh%20Failed%20SSH%20Authentication%20Logs.png)
+
 Authentication attempts were purposely failed by using the wrong password.
 
 Wazuh was able to detect the failed logins and the 5760 rule was triggered. The log provided useful information including the target username and the SSH source port.
