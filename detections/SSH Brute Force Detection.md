@@ -19,7 +19,7 @@ The rule was configured to:
 
 To test the new rule multiple SHH attempts were made from the Windows laptop within 60 seconds.
 
- ![Powershell Password Attempts](../Screenshots/Powershell_Password_Attempts_.png)
+![Powershell Password Attempts](../Screenshots/Powershell_Password_Attempts_.png)
 
   
 Wazuh detected the failed logins and triggered rule 100002.
