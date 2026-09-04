@@ -8,11 +8,12 @@ Real time monitoring was enabled in the ossec.conf file.
 
 The configuration can be seen below:
 
+'''xml
 <syscheck>
 <disabled>no</disabled>
 <frequency>43200</frequency>
 <directories realtime="yes">C:\Users\awadk\Downloads\Wazuh Test</directories> </syscheck>
-
+'''
 
 
 ### Testing 
