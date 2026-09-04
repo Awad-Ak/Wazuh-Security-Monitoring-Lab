@@ -1,4 +1,4 @@
-File Integrity Monitoring (FIM)
+## File Integrity Monitoring (FIM)
 
 FIM was configured in Wazuh to monitor a set directory on the Windows agent.
 File creation, modification and deletion was tracked.
@@ -12,6 +12,8 @@ The configuration can be seen below:
 <disabled>no</disabled>
 <frequency>43200</frequency>
 <directories realtime="yes">C:\Users\awadk\Downloads\Wazuh Test</directories> </syscheck>
+
+### Testing 
 
 To test if FIM was working I created a test file, modified it and then deleted it.
 
@@ -35,7 +37,7 @@ Above is the file deletion
 
 Wazuh was able to detect and log these changes. Furthermore, the alerts provided info that can be used by an analyst to further investigate the file operations.
 
-Conclusion 
+### Conclusion 
 
 Certain file modifications could be a sign of malicious activity eg an attacker could modify a companies files when they gain acsess to an endpoint in this case a windows laptop.
 
