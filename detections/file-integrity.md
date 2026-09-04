@@ -15,7 +15,7 @@ The configuration can be seen below:
 
 To test if FIM was working I created a test file, modified it and then deleted it.
 
-![FIM File Created](../Screenshots/
+![FIM File Created](../Screenshots/creation%of%text%file.png)
 
 
 
