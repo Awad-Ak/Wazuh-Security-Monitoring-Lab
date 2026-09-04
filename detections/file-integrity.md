@@ -13,6 +13,8 @@ The configuration can be seen below:
 <frequency>43200</frequency>
 <directories realtime="yes">C:\Users\awadk\Downloads\Wazuh Test</directories> </syscheck>
 
+
+
 ### Testing 
 
 To test if FIM was working I created a test file, modified it and then deleted it.
