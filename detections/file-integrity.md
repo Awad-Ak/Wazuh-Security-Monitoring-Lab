@@ -33,7 +33,7 @@ Above is the file deletion
 
 
 
-Wazuh was able to detect and log these changes. Furthermore, the alerts provided info that can be used by an analyst to the file operations.
+Wazuh was able to detect and log these changes. Furthermore, the alerts provided info that can be used by an analyst to further investigate the file operations.
 
 Conclusion 
 
