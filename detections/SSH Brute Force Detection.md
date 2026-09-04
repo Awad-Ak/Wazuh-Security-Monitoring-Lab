@@ -19,8 +19,7 @@ The rule was configured to:
 
 To test the new rule multiple SHH attempts were made from the Windows laptop within 60 seconds.
 
-![Brute Force Log Alert](../Screenshots/Brute%20Force%20Log%20Alert.png)
-
+![Powershell Password Attempts](../Screenshots/Powershell%20Password%20Attempts%20.png)
 
   
 Wazuh detected the failed logins and triggered rule 100002.
@@ -28,4 +27,6 @@ The activity was identified as:
 Possible SSH brute-force attack: multiple authentication failures from the same source IP.
 The alert was also mapped to MITRE ATT&CK T1110 – Brute Force.
 
-![Powershell Password Attempts](../Screenshots/Powershell%20Password%20Attempts%20.png)
+![Brute Force Log Alert](../Screenshots/Brute%20Force%20Log%20Alert.png)
+
+
