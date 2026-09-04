@@ -17,10 +17,15 @@ To test if FIM was working I created a test file, modified it and then deleted i
 
 
 ![FIM File Created](../Screenshots/Creation%20of%20text%20file.png)
+
 Above is the file creation
+
 ![FIM File Modified](../Screenshots/Modification%20of%20text%20file.png)
+
 Above is the file modification 
+
 ![FIM File Deleted](../Screenshots/Deletion%20of%20txt%20file.png)
+
 Above is the file deletion 
 
 
